@@ -1,0 +1,18 @@
+{
+  "name": "curso-nodejs",
+  "version": "1.0.0",
+  "main": "server.js",
+  "repository": "https://github.com/guilhermemiua/curso-nodejs.git",
+  "author": "Guilherme Eiti Akita Miua <guilhermemiua@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1",
+    "sqlite3": "^4.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.4"
+  },
+  "scripts": {
+    "start:dev": "nodemon src/server/index.js"
+  }
+}
